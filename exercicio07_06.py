@@ -25,6 +25,7 @@ fig, ax = plt.subplots()
 dfe["Lucro do período"].plot(kind = 'hist')
 st.pyplot(fig)
 
+st.write("Apresentação da soma dos valores de cada projeto agrupado por ano")
 st.write(dfe.groupby('Ano').mean())
 
 #Aqui só incluir st.write na frente
