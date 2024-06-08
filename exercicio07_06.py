@@ -3,7 +3,6 @@ import matplotlib.pyplot as plt
 import streamlit as st
 
 st.set_page_config(
-
 page_title="Empresa 1",
 )
 
